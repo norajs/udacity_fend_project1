@@ -1,0 +1,89 @@
+/* Small breakpoint just to change logo and font-size in header*/
+@media screen and (min-width: 420px) {
+    body {
+        font-size: 11px;
+    }
+    #logo {
+        max-width: 180px;
+    }
+}
+
+/* Small breakpoint just to change logo and font-size in header*/
+@media screen and (min-width: 640px) {
+    body {
+        font-size: 14px;
+    }
+    #logo {
+        max-width: 200px;
+    }
+    
+    .project_image {
+        max-width: 70%;
+        margin: 0 15% 0 15%;
+    }
+}
+
+/* Breakpoint for iPad - layout does not change yet*/
+@media screen and (min-width: 763px) {
+    body {
+        font-size: 18px;
+    }
+    #logo {
+        max-width: 300px;
+    }
+    
+    .project_image {
+        max-width: 70%;
+        margin: 0 15% 0 15%;
+    }
+    
+    figcaption {
+        font-size: 18px;
+        margin: 0 20% 0 20%;
+    }
+    
+    small {
+        font-size: 10px;
+    }
+}
+
+/* Breakpoint for desktop */
+@media screen and (min-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+    
+    .container {
+        max-width: 900px;
+        margin: auto;
+    }
+    
+    .projects {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        min-width: 100%;
+        /*text-align: center;*/
+    }
+    
+    figure {
+        max-width: 33.33%;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    figcaption {
+        margin: 0;
+        min-width: 100%;
+    }
+    
+    .project_image {
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #web {
+        opacity: .2
+    }
+}
