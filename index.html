@@ -20,7 +20,12 @@
             </header>
             <!-- Main photo -->
             <section class="photo">
-                <img id="web" src="img/web.jpg" alt="Spider Web">
+                <picture>
+                    <source media="(max-width: 370px)" srcset="img/web_small.jpg">
+                    <source media="(min-width: 371px), (max-width: 900px)" srcset="img/web_large.jpg">
+                    <img id="web" src="img/web.jpg" alt="Spider Web">
+                </picture>
+                
             </section>
             <!-- Project thumbnails -->
             <section class="projects">
